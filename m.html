@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Series Project</title>
+    <style>
+       body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('mm.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: rgba(255, 255, 255, 0.8);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropbtn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            z-index: 1;
+            border-radius: 8px;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            transition: background-color 0.3s;
+        }
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .dropdown:hover .dropbtn {
+            background-color: #3e8e41;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Time Series Project</h1>
+        <div class="dropdown">
+            <button class="dropbtn">Select Analysis</button>
+            <div class="dropdown-content">
+                <a href="/Users/hysam/21I1660-21I2654-PROJECT/ar.html" target="_blank">ARIMA</a>
+                <a href="/Users/hysam/21I1660-21I2654-PROJECT/SARIMA.html" target="_blank">SARIMA</a>
+                <a href="/Users/hysam/21I1660-21I2654-PROJECT/l.html" target="_blank">LSTM</a>
+                <a href="/Users/hysam/21I1660-21I2654-PROJECT/pro.html" target="_blank">PROPHET</a>
+                <a href="/Users/hysam/21I1660-21I2654-PROJECT//ets.html" target="_blank">ETS</a>
+                <a href="/Users/hysam/21I1660-21I2654-PROJECT/ann.html" target="_blank">ANN</a>
+                <a href="/Users/hysam/21I1660-21I2654-PROJECT/svr.html" target="_blank">SVR</a>
+                <a href="/Users/hysam/21I1660-21I2654-PROJECT/hy.html" target="_blank">HYBRID</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
